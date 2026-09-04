@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string cekHoki(int n) {
+    if (n % 2 == 0 && n % 7 == 0) {
+        return "HOKI";
+    } else {
+        return "BIASA";
+    }
+}
